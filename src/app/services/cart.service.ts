@@ -30,7 +30,7 @@ export class CartService {
     );
   }
   checkOut(cartId:any,cartInfo:object):Observable<any>{
-    let encodedURL = `http://localhost:4200` + encodeURIComponent('#');
+    let encodedURL = `https://fresh-cart-mu.vercel.app/` + encodeURIComponent('#');
     return this._HttpClient.post(`${this.baseUrl}/api/v1/orders/checkout-session/${cartId}?url=${encodedURL}`,
     {shippingAddress:cartInfo}
     )
