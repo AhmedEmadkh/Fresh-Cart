@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="form-item">
-      <label for="rePassword" class="fw-bold mb-2">rePassword;</label>
+      <label for="rePassword" class="fw-bold mb-2">rePassword:</label>
       <input class="form-control" id="rePassword" formControlName="rePassword" type="password">
       <div class="alert alert-danger mt-2"
         *ngIf="(registerForm.get('rePassword')?.touched || registerForm.get('rePassword')?.value.length>0) && registerForm.get('rePassword')?.errors">

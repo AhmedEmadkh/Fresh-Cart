@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Fresh-Cart
+=======
 # Fresh Cart eCommerce Platform
 
 Fresh Cart is an eCommerce platform designed to provide a seamless shopping experience for users. This README provides an overview of the features, technologies used, and guidelines for setting up and running the project.
@@ -30,3 +33,4 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/AhmedEmadkh/Fresh-Cart.git
+>>>>>>> origin/main
