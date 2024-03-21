@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fresh-Cart
 =======
 # Fresh Cart eCommerce Platform
@@ -33,4 +32,3 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/AhmedEmadkh/Fresh-Cart.git
->>>>>>> origin/main
